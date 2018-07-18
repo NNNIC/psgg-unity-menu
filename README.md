@@ -18,7 +18,7 @@ Of this example, it will create a panel and buttons that are cloned from templat
 
 UI view is "A unit by A pixel" system for improving maintainability.
 
-When the target view is as iPhone X size, it protects the safe area.
+When the target view is as iPhone X size, it keeps the safe area.
 
 ## Error Dialog
 
