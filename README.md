@@ -10,7 +10,7 @@ Assets/app/0100_Base/UIControl/state
 2. A PSGG state machine will handle events.
 It shows dialog when button5 pushes.
 Assets/app/0100_Base/MainControl  
-
+![Main state machine](https://raw.githubusercontent.com/NNNIC/psgg-unity-menu/master/web/main.png)
 ## UI System
 
 Of this example, it will create a panel and buttons that are cloned from template.
