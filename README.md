@@ -41,4 +41,4 @@ This will be used for UI Test.
 |ErrorDg/Camera|UI|50| Error Dialog|
 
 
-![app](https://raw.githubusercontent.com/NNNIC/psgg-unity-menu/master/web/app.png)
+![app](https://raw.githubusercontent.com/NNNIC/psgg-unity-menu/master/web/ap.png)
