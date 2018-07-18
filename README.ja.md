@@ -2,12 +2,12 @@
 
 ## 概要
 
-1. PSGGステートマシンによるUI作成
+1. PSGGステートマシンによるUI作成  
 Assets/app/0100_Base/UIControl/state  
 
 ![UI state machine](https://raw.githubusercontent.com/NNNIC/psgg-unity-menu/master/web/ui.png)
 
-2. PSGGステートマシンによるイベント制御
+2. PSGGステートマシンによるイベント制御  
 "Button 05"押下により、エラーダイアログ表示   
 
 Assets/app/0100_Base/MainControl  
