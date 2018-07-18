@@ -17,7 +17,7 @@ Of this example, it will create a panel and buttons that are cloned from templat
 
 ## Error Dialog
 
-Error dialog can be created by ErrorDlg/.V.SetError();
+Error dialog can be created by ErrorDlg.V.SetError();  
 It allows you to call the api multi times.
 
 ## Event System
