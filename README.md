@@ -11,9 +11,14 @@ Assets/app/0100_Base/UIControl/state
 It shows dialog when button5 pushes.
 Assets/app/0100_Base/MainControl  
 ![Main state machine](https://raw.githubusercontent.com/NNNIC/psgg-unity-menu/master/web/main.png)
+
 ## UI System
 
 Of this example, it will create a panel and buttons that are cloned from template.
+
+UI view is "A unit by A pixel" system for improving maintainability.
+
+When the target view is as iPhone X size, it protects the safe area.
 
 ## Error Dialog
 
@@ -35,3 +40,5 @@ This will be used for UI Test.
 |BG/Camera |None|-49|Background Color|
 |ErrorDg/Camera|UI|50| Error Dialog|
 
+
+![app](https://raw.githubusercontent.com/NNNIC/psgg-unity-menu/master/web/app.png)
