@@ -41,5 +41,12 @@ ErrorDlg.V.SetError()を呼ぶことで、エラーダイアログが生成さ�
 |ErrorDg/Camera|UI|50| Error Dialog|
 
 
+## 実行
+
+Assets/app/0100_Base/base.unity
+
 ![app](https://raw.githubusercontent.com/NNNIC/psgg-unity-menu/master/web/ap.png)
+
+
+
 

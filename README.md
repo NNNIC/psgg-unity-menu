@@ -40,5 +40,9 @@ This will be used for UI Test.
 |BG/Camera |None|-49|Background Color|
 |ErrorDg/Camera|UI|50| Error Dialog|
 
+## Play the scene
+
+Load Assets/app/0100_Base/base.unity
 
 ![app](https://raw.githubusercontent.com/NNNIC/psgg-unity-menu/master/web/ap.png)
+
