@@ -147,7 +147,7 @@ public partial class UITest01Control : StateManager {
         }
         if (!HasNextState())
         {
-            SetNextState(S_END);
+            SetNextState(S_BUT05);
         }
         if (HasNextState())
         {
@@ -165,13 +165,37 @@ public partial class UITest01Control : StateManager {
             create("PNL_CTR","Panel");
             set_anchor("MC");
             set_pivot("MC");
-            set_size(640,830);
+            set_size(640,1136);
             set_pos(0,0);
         }
         set_parent();
         if (!HasNextState())
         {
             SetNextState(S_BUT01);
+        }
+        if (HasNextState())
+        {
+            GoNextState();
+        }
+    }
+    /*
+        S_BUT05
+        button 05 作成
+    */
+    void S_BUT05(bool bFirst)
+    {
+        if (bFirst)
+        {
+            create("BUT05","Button");
+            set_anchor("TC");
+            set_pivot("MC");
+            set_size(200,50);
+            set_pos(0,-500);
+            set_text("BUT05");
+        }
+        if (!HasNextState())
+        {
+            SetNextState(S_END);
         }
         if (HasNextState())
         {

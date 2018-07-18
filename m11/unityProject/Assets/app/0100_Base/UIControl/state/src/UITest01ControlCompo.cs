@@ -17,7 +17,7 @@ public class UITest01ControlCompo : UIControlCompo {
 
     private void Update()
     {
-        m_sm.update();
+        if (m_sm!=null) m_sm.update();
     }
 
     public override void SetTarget_TemplateAndStart()

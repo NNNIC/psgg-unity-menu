@@ -37,7 +37,7 @@ public class ErrorDlg : MonoBehaviour {
             panel.name = errorpanelname;
             UGuiUtil.SetPivot(panel,UIANCHORPOS.MC);
             UGuiUtil.SetAnchor(panel,UIANCHORPOS.MC);
-            UGuiUtil.SetSize(panel,ScreenDef.reference_width,ScreenDef.reference_height);
+            UGuiUtil.SetSize(panel,ScreenDef.reference_width,ScreenDef.reference_height_fix);
             UGuiUtil.SetPos(panel,0,0);
         }
 
