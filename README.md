@@ -27,6 +27,6 @@ This will be used for UI Test.
 |Camera|Mask|Depth|Comment|
 |:--|--:|:--|:--|
 |UI/main/Camera|UI|11| Main UI |
-|BG/Camera |-49|None| Background Color|
+|BG/Camera |None|-49|Background Color|
 |ErrorDg/Camera|UI|50| Error Dialog|
 
