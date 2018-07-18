@@ -2,12 +2,14 @@
 
 ## Overview
 
-1. A PSGG state machine will create UI.
+1. A PSGG state machine will create UI.  
 Assets/app/0100_Base/UIControl/state
+
+[UI state machine](https://github.com/NNNIC/psgg-unity-menu/blob/master/web/ui.png)
 
 2. A PSGG state machine will handle events.
 It shows dialog when button5 pushes.
-Assets/app/0100_Base/MainControl
+Assets/app/0100_Base/MainControl  
 
 ## UI System
 
