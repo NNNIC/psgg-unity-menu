@@ -15,6 +15,11 @@ Assets/app/0100_Base/MainControl
 
 Of this example, it will create a panel and buttons that are cloned from template.
 
+## Error Dialog
+
+Error dialog can be created by ErrorDlg/.V.SetError();
+It allows you to call the api multi times.
+
 ## Event System
 
 All UI Events will be recorded by MainStateEvent.Push().
