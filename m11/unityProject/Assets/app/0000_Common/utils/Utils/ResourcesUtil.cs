@@ -26,4 +26,10 @@ public class ResourcesUtil {
         return go;
     }
 
+    // spriteのロードは、Resourcesからのみ。 Editorでは別 AssetDataBaseによる取得が可能。
+    // ref https://answers.unity.com/questions/591677/how-to-get-child-sprites-from-a-multiple-sprite-te.html
+    public static Sprite[] LoadAllSprites(string path)
+    {
+        return Resources.LoadAll<Sprite>(path);
+    }
 }
